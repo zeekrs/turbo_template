@@ -1,0 +1,11 @@
+{
+	"extends": ["@workspace/typescript-config/base.json"],
+	"compilerOptions": {
+		"outDir": "dist",
+		"noEmit": false,
+		"allowImportingTsExtensions": false,
+		"declaration": true
+	},
+	"include": ["configs", "scripts"],
+	"exclude": ["node_modules", "dist"]
+}

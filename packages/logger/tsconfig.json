@@ -1,9 +1,9 @@
 {
 	"extends": "@workspace/typescript-config/base.json",
 	"compilerOptions": {
-		"lib": ["ES2015"],
+		"lib": ["ES2015", "DOM"],
 		"outDir": "./dist",
-		"types": ["jest", "node"]
+		"types": ["vitest", "node"]
 	},
 	"include": ["."],
 	"exclude": ["node_modules", "dist"]
